@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:wght@100;300;400;500;700&display=swap');
+body {
+    margin: 0 auto;
+    
+}
+
+#theproblem:before {
+	display: block;
+	content: "";
+	height: 55px;
+	margin: -55px 0 0;
+}
+#ppc:before {
+	display: block;
+	content: "";
+	height: 55px;
+	margin: -55px 0 0;
+}
+#theteam:before {
+	display: block;
+	content: "";
+	height: 40px;
+	margin: -40px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    display: block;
+    height: 70px;
+    background-color: #007765;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    text-decoration: underline;
+
+}
+a {
+    text-decoration: none;
+    color : #FFFFFF;
+}
+a:hover {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+.logo {
+    display:inline-block;
+    padding-left: 100px;
+    padding-top:10px;
+}
+.list {
+    display: inline;
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+
+}
+.list > li{
+    display: inline;
+    padding-right: 20px;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+.section1 {
+    display: block;
+    height: 500px;
+    background: url(..//Верстка/img/image-15.png) center no-repeat ;
+    height:403px;
+    width: device-width;
+    background-size: cover;
+    overflow: auto;
+}
+.section1 > h1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 82px;
+    padding-bottom: 82px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 84px;
+    color:#FFFFFF;
+}
+.section2 {
+    display: block;
+    height: 600px;
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    font-family: 'Roboto';
+    font-style: medium;
+    font-size: 32px;
+    line-height: 37.5px;
+    line-height: 100%;
+
+}
+.section2 > h1, .section4 > h1, .the-team > h1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 84px;
+    color:#007765;
+}
+.section3 {
+    display: block;
+    height: 500px;
+    background: url(..//Верстка/img/Hero.png) center no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+.section3 > h1  {
+    display: none;
+}
+.section4 {
+    display: block;
+    height: 500px;
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    font-family: 'Roboto';
+    font-style: medium;
+    font-size: 28px;
+    line-height: 37.5px;
+    line-height: 100%;
+
+}
+.picture {
+    display: block;
+    float: left;
+    image-resolution:inherit;
+    padding-right: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+
+.figure {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.cards__img  {
+    width: 350px;
+    height: 283px;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 55px;
+    font-family: 'Roboto';
+    font-style: medium;
+    color: #007765;
+
+}
+
+
+
+.ftext {
+    display: block;
+    height: 100px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: medium;
+    font-size: 16px;
+    background-color: #333333;
+    padding-top: 25px;
+    color: #FFFFFF;
+
+}
